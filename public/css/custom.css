@@ -1,0 +1,53 @@
+#sidebar{
+    min-height: calc(100vh - 125px);
+}
+.modal-xlg {
+    max-width: 1000px;
+}
+
+.card.card-comment,.card.card-preview{
+    height: calc(100vh - 194px);
+    margin-bottom: 0px !important;
+}
+.chat-comment,.body-preview{
+    overflow-y: scroll;
+    height: calc(100% - 48px);
+}
+.o-progress{
+    cursor: pointer;
+}
+
+div.dataTables_wrapper div.text-left>div.dataTables_filter {
+    text-align: left !important;
+}
+
+.segaris{
+    overflow:hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+/* distance between stacked modals*/
+/* The first modal translateZ value*/
+.modal.show {
+  -webkit-perspective: 2000px;
+  -moz-perspective: 2000px;
+  -ms-perspective: 2000px;
+  -o-perspective: 2000px;
+  perspective: 2000px;
+}
+.modal.show .modal-dialog.maside {
+  -webkit-transform: -340px;
+  -moz-transform: -340px;
+  -ms-transform: -340px;
+  -o-transform: -340px;
+  transform: -340px;
+  -webkit-transform: scale(0.8) rotateY(45deg) translateZ(-340px);
+  -ms-transform: scale(0.8) rotateY(45deg) translateZ(-340px);
+  -o-transform: scale(0.8) rotateY(45deg) translateZ(-340px);
+  transform: scale(0.8) rotateY(45deg) translateZ(-340px);
+  -webkit-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  -o-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
